@@ -1,8 +1,8 @@
 {
   "esy": {
-    "build": "hello"
+    "build": "ls #{esy-pcre2.lib}"
   },
   "dependencies": {
-    "esy-hello": "*"
+    "esy-pcre2": "*"
   }
 }
