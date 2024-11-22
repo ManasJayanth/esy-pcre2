@@ -1,6 +1,6 @@
 {
   "esy": {
-    "build": "ls #{esy-pcre2.lib}"
+    "build": [["pcre2grep", "regular expression", "#{self.root}/README"]]
   },
   "dependencies": {
     "esy-pcre2": "*"
